@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mulish&family=Open+Sans:wght@300;600&family=Raleway:wght@200;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
 :root {
   --primary-color: #22c55e;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kalam', cursive;
   margin: 0px;
 }
 
 .heading {
-  font-family: "Times New Roman", Times, serif;
+  
   background-color: var(--primary-color);
   color: #fff;
   text-align: center;
@@ -38,6 +37,7 @@ body {
   background-color: #fff;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-family: 'Kalam', cursive;
 }
 #btnTranslate:hover {
   cursor: pointer;
